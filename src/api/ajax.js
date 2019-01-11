@@ -1,7 +1,7 @@
 import axios from 'axios'
 let config = process.env; // 引入全局环境变量配置
 
-//
+// 封装ajax
 export default function ajax(url='', params={},type='GET') {
     // 定义promise对象
     let promise;
